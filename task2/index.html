@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/styles/normalize.css" />
+		<link rel="stylesheet" href="./assets/styles/style.css" />
+		<title>ToDo List Maker</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="heading">ToDo List</h1>
+		</header>
+		<main>
+			<div class="task-form">
+				<input
+					type="text"
+					class="task-form__input"
+					id="taskInput"
+					placeholder="Введите задачу"
+				/>
+				<button class="task-form__button" id="addButton">
+					Добавить
+				</button>
+			</div>
+			<div class="task">
+				<h2 class="task__title">My Tasks</h2>
+				<ul class="task__list" id="taskList"></ul>
+			</div>
+		</main>
+		<script src="./assets/scripts/app.js"></script>
+	</body>
+</html>

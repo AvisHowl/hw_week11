@@ -1,0 +1,43 @@
+.heading {
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin: 50px 0;
+}
+.task-form__input {
+  width: 20%;
+}
+.task-form__button {
+  width: 100px;
+  background-color: #18bf39;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.task-form__button:hover {
+  cursor: pointer;
+}
+
+.task {
+  width: 30%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.task__title {
+  padding: 10px;
+  text-align: center;
+}
+.task__list {
+  list-style-type: decimal;
+}
+
+.completed {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
